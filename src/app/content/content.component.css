@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .download-button {
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.3s;
+        .container-p-icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+    }
+    
+    .android {
+        background-color: #3DDC84; /* Color de Android */
+    }
+    
+    .android:hover {
+        background-color: #2BBE5A; /* Color más oscuro de Android al pasar el mouse */
+    }
+    
+    .ios {
+        background-color: #007AFF; /* Color de iOS */
+    }
+    
+    .ios:hover {
+        background-color: #005BB5; /* Color más oscuro de iOS al pasar el mouse */
+    }
+}
