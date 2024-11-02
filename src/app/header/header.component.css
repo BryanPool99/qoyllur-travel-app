@@ -5,10 +5,13 @@ header{
         flex-direction: column-reverse;
         align-items: center;
         @media (max-width: 500px) {
-            width: 90vw;
+            width: 80vw;
         }
         img{
             width: 100%;
+            @media (max-width: 500px) {
+                width: 70%;
+            }
         }
         h1{
             text-align: center;
